@@ -9,3 +9,6 @@ services:
    - 443:443
   volumes:
    - ./ssl:/etc/ssl/apache2/
+  environment:
+   TZ: Europe/Kiev
+
